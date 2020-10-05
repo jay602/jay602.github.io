@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head hexo-theme='https://github.com/volantis-x/hexo-theme-volantis/tree/4.0.0'>
   <meta charset="utf-8">
   <!-- SEO相关 -->
@@ -21,7 +21,7 @@
 
   <!-- 页面元数据 -->
   
-  <title>Hexo</title>
+  <title>(*^_^*)萧大虾(*Φ皿Φ*)</title>
   
 
   
@@ -480,7 +480,7 @@
       
         <div>
           <a class='readmore' href='/2013/12/24/%E6%97%A5%E6%9C%AC%E8%AA%9E%E3%83%86%E3%82%B9%E3%83%88/'>
-            Read More
+            阅读全文
           </a>
         </div>
       
@@ -526,7 +526,7 @@
       
         <div>
           <a class='readmore' href='/2013/12/24/%E4%B8%AD%E6%96%87%E6%B8%AC%E8%A9%A6/'>
-            Read More
+            阅读全文
           </a>
         </div>
       
@@ -570,7 +570,7 @@
       
         <div>
           <a class='readmore' href='/2013/12/24/long-title/'>
-            Read More
+            阅读全文
           </a>
         </div>
       
@@ -617,7 +617,7 @@
       
         <div>
           <a class='readmore' href='/2013/12/24/categories/'>
-            Read More
+            阅读全文
           </a>
         </div>
       
@@ -661,7 +661,7 @@
       
         <div>
           <a class='readmore' target="_blank" rel="noopener" href='http://www.google.com/'>
-            Read Original
+            去源站阅读
           </a>
         </div>
       
@@ -705,7 +705,7 @@
       
         <div>
           <a class='readmore' href='/2013/12/24/tags/'>
-            Read More
+            阅读全文
           </a>
         </div>
       
@@ -750,7 +750,7 @@ Heading 1Heading 2Heading 3Headin...
       
         <div>
           <a class='readmore' href='/2013/12/24/elements/'>
-            Read More
+            阅读全文
           </a>
         </div>
       
@@ -771,7 +771,7 @@ Heading 1Heading 2Heading 3Headin...
         
           <a class="prev" rel="prev" href="/">
             <section class="post prev white-box shadow" >
-              <i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;Previous&nbsp;
+              <i class="fas fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页&nbsp;
             </section>
           </a>
         
@@ -805,7 +805,7 @@ Heading 1Heading 2Heading 3Headin...
         
         
         
-          <p><span id="jinrishici-sentence">Hexo</span></p>
+          <p><span id="jinrishici-sentence">(*^_^*)萧大虾(*Φ皿Φ*)</span></p>
           <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
         
       </div>
@@ -953,7 +953,7 @@ Heading 1Heading 2Heading 3Headin...
       
     
       
-        <div><p>Blog content follows the <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License</a></p>
+        <div><p>博客内容遵循 <a target="_blank" rel="noopener" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh">署名-非商业性使用-相同方式共享 4.0 国际 (CC BY-NC-SA 4.0) 协议</a></p>
 </div>
       
     
@@ -965,9 +965,9 @@ Heading 1Heading 2Heading 3Headin...
       
     
       
-        Use
+        本站使用
         <a href="https://github.com/volantis-x/hexo-theme-volantis/tree/4.0.0" target="_blank" class="codename">Volantis</a>
-        as theme
+        作为主题
       
     
       
@@ -1310,7 +1310,7 @@ const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
       // 请求 PV 并自增
       var pvCtn = document.querySelector('#lc-sv');
       if (pvCtn || enableIncr) {
-        var pvGetter = this.getRecord(Counter, 'http://yoursite.com' + '/#lc-sv', 'Visits').then((record) => {
+        var pvGetter = this.getRecord(Counter, 'http://jay602.github.io' + '/#lc-sv', 'Visits').then((record) => {
           incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-sv #number');
           if (eles.length > 0) {
@@ -1328,7 +1328,7 @@ const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
       // 请求 UV 并自增
       var uvCtn = document.querySelector('#lc-uv');
       if (uvCtn || enableIncr) {
-        var uvGetter = this.getRecord(Counter, 'http://yoursite.com' + '/#lc-uv', 'Visitors').then((record) => {
+        var uvGetter = this.getRecord(Counter, 'http://jay602.github.io' + '/#lc-uv', 'Visitors').then((record) => {
           var vuv = this.validUV();
           vuv && incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-uv #number');
@@ -1350,7 +1350,7 @@ const ROOT =  ("/" || "/").endsWith('/') ? ("/" || "/") : ("//" || "/" );
         for (i = 0; i < allPV.length; i++) {
           let pv = allPV[i];
           let title = pv.getAttribute('data-title');
-          var url = 'http://yoursite.com' + pv.getAttribute('data-path');
+          var url = 'http://jay602.github.io' + pv.getAttribute('data-path');
           if (url) {
             var viewGetter = this.getRecord(Counter, url, title).then((record) => {
               // 是当前页面就自增
